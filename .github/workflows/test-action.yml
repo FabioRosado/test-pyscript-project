@@ -9,10 +9,8 @@ jobs:
   send_files_job:
     runs-on: ubuntu-latest
     steps:
-      - name: debug
-        run: echo ${{ secrets.PYSCRIPT_API_TOKEN}}
       - name: Send files to PyScript.com
         uses: FabioRosado/upload-to-pyscript@main
         with:
-          api_token: ${{ secrets.PYSCRIPT_API_TOKEN }}
+          api_token: ${{ secrets.PYSCRIPT_API_TOKEN_I_DONT_EXIST }}
           project_id: '6382c36a-1503-4a2e-89f8-feaba9d4bd9d'
