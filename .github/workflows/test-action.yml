@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  send_files_job:
+  send_files_to_pyscript:
     runs-on: ubuntu-latest
     steps:
       - name: Send files to PyScript.com
@@ -14,3 +14,4 @@ jobs:
         with:
           api_token: ${{ secrets.PYSCRIPT_API_TOKEN }}
           project_id: '6382c36a-1503-4a2e-89f8-feaba9d4bd9d'
+          api_domain: 'pyscript-dev.com'
