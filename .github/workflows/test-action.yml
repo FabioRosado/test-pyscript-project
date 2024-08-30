@@ -1,6 +1,7 @@
 name: Send to PyScript
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
