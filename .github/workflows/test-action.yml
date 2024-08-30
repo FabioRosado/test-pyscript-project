@@ -14,4 +14,4 @@ jobs:
         uses: FabioRosado/upload-to-pyscript@main
         with:
           api_token: ${{ secrets.PYSCRIPT_API_KEY }}
-          projectid: '6382c36a-1503-4a2e-89f8-feaba9d4bd9d'
+          project_id: '6382c36a-1503-4a2e-89f8-feaba9d4bd9d'
