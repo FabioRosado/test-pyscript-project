@@ -8,3 +8,6 @@ print("hello PyScriptFun")
 
 
 print("Test asyncio.to_thread")
+
+
+print("Hello Demo Friday!")
