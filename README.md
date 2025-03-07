@@ -1,2 +1,2 @@
-# test-pyscript-project
+# Pyscript to Github
 just a test
