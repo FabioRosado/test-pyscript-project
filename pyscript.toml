@@ -5,7 +5,7 @@ name = "Pyscript to Github"
 
 # Bundle your project into a zip file which can be downloaded or used
 # as a module in your Anaconda Toolbox Excel Add-in
-# export = true
+export = false
 
 # Fetch arbitrary content from URLs onto the virtual filesystem, just map a valid
 # URL to a destination in the filesystem path
